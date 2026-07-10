@@ -3,7 +3,7 @@ pipeline {                                        // 1 // Defines the start of t
     agent any                                     // Specifies the pipeline can run on any available agent
 
     environment {                                 // 2 // Defines environment variables for the pipeline
-        PATH = "/opt/maven/bin:$PATH"             // Adds Maven's path to the system PATH variable
+        PATH = "/opt/maven/bin:$PATH"             // Add's Maven's path to the system PATH variable
     }                                             // 2 // Ends the environment block
 
     stages {                                      // 3 // Defines the stages block where multiple stages are declared
