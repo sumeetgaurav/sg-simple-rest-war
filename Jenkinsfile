@@ -12,7 +12,7 @@ pipeline {                                        // 1 // Defines the start of t
 
             steps {                               // 7 // Defines the steps that will be executed in this stage
 
-                sh 'mvn clean install'            #  Runs the Maven clean install command to build the project
+                sh 'mvn clean install'            
 
             }                                     // 7 // Ends the steps block for 'build' stage
 
